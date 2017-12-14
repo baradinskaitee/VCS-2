@@ -1,3 +1,8 @@
+jQuery('.nav-hover').click(function(){
+  jQuery('nav-hover').removeClass('active');
+  jQuery(this).addClass('active');
+});
+
 (function($){
   $(function(){
 
