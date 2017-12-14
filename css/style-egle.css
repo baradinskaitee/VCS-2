@@ -10,7 +10,6 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
 p {
   line-height: 2rem;
 }
@@ -18,20 +17,46 @@ p {
 .button-collapse {
   color: #26a69a;
 }
+li > a.nav-hover{
+  background: none !important;
+}
+.foto {
+background-size: cover !important;
+width: 100%;
+background-position: center center;
+margin-top: 56px;
+}
 
+li > a.nav-hover:hover{
+  background: #000 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.readmore:hover{
+  transform: ease 500ms all  !important ;
+  background: #fff !important; 
+  color: #000;
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: black;
+  
+  
+}
+.active{
+  text-decoration: underline;
 }
   .parallax-container .section {
     width: 100%;
+    
   }
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
+    
     top: 40%;
   }
   #index-banner .section {
