@@ -117,3 +117,7 @@ p.orderprice {
     color: #fff !important;
     text-decoration: none !important;
   }
+
+  .parallax-container .parallax img {
+    display: block;
+  }

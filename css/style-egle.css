@@ -80,3 +80,7 @@ li > a.nav-hover:hover{
 footer.page-footer {
   margin: 0;
 }
+
+.parallax-container .parallax img {
+  display: block;
+}
