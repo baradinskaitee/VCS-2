@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact page</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC:200i,300,300i,400,500" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style-romas.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<!-- Google maps zemelapis -->
+  <style>
+    #map {
+     height: 400px;
+     width: 100%;
+    }
+ </style>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn9iGaPqZuXtghY6jihC2i1kt0YE7Px_M&callback=initMap"></script>
+<!-- Google maps zemelapis -->
+</head>
+<body>
+  <!-- Navigacijos linija -->
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo"> <img id="logo" class="" src="Images/Logo_small.png" alt=""> </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html" class="nav-hover">Main</a></li>
+                <li><a href="about_us.html" class="nav-hover">About Us</a></li>
+                <li><a href="plans.html" class="nav-hover">Plans</a></li>
+                <li><a href="testimonials.html" class="nav-hover">Testimonials</a></li>
+                <li><a href="contact_us.html" class="nav-hover active">Contact Us</a></li>
+            </ul>
+      
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="index.html" class="nav-hover">Main</a></li>
+                <li><a href="about_us.html" class="nav-hover">About Us</a></li>
+                <li><a href="plans.html" class="nav-hover">Plans</a></li>
+                <li><a href="testimonials.html" class="nav-hover">Testimonials</a></li>
+                <li><a href="contact_us.html" class="nav-hover active">Contact Us</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+<!-- Navigacijos linijos pabaiga -->
+<!-- Iskvietimas raudonojo mygtuko pagalba -->
+  <!-- <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Naujiena susisiekite naudodami red button</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Greitas susisiekimas su pagalba vieno specialaus mygtuko paspaudimu</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="call-button" class="btn-large waves-effect waves-light teal lighten-1">Red button</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/fonovaizdas2.jpg" alt="Unsplashed background img 1"></div>
+  </div> -->
+
+  <div class="flex-container">
+    <div class="section">
+
+     
+      <div class="row">
+<!-- rasymas el. pastu is vidinio pasto serverio -->
+        <div class="col m4 s12">
+          <div class="icon-block">
+            <!-- <h2 class="center brown-text"><i class="material-icons">group</i></h2> -->
+            <h5 class="center">Write us an email</h5>
+            <a href="mailto:info@superherosecurity.lt">info@superherosecurity.lt</a>
+          </div>
+        </div>
+     <!-- uzklausos formos pildymas -->
+        <div class="col m8 s12">
+          <div class="icon-block">
+            <!-- <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2> -->
+            <section>
+            <h5 class="center">Fill contact form</h5>
+            <!--        <form action="insert.php" method="post">-->
+              <!-- Laukas ivesti pavardei telefonui ir email -->
+              <form><div class="col m6 s12">
+                <div class="row">
+                    <!-- <i class="material-icons prefix">account_circle</i> -->
+                    <input name="firstname" class="input-field" type="text" placeholder="Firstname">
+                </div>
+                    <input name="lastname" class="input-field" type="text" placeholder="Lastname">
+                    <input name="email" class="input-field" type="text" placeholder="email">
+                    </div>
+                    <!-- Laukas tekstui irasyti ir mygtukas -->
+                    <div class="col m6 s12">
+                        <!-- <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Textarea</label>
+                          </div> -->
+                          <!-- class="materialize-area"  -->
+                    <textarea name="review" cols="20" rows="10" placeholder="Leave your message here"></textarea>
+                    <input class="btn waves-effect waves-light" type="submit" value="Submit">
+                    </div>
+                </form>
+                </section>
+            <!-- <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p> -->
+          </div>
+        </div>
+
+        <!-- <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div> -->
+      </div><!--eilutes uzdarymas -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div> -->
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col m12 s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h5>Visit us</h5>
+          <p class="left-align light">Ulonų g. 5 - 312, Vilniuss 08240</p>
+          <!-- <img src="images/zemelapis.jpg">     -->
+          <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: 54.709892, lng: 25.292379};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Programeles atsisiuntimas -->
+<div class="row">
+      <div class="col m8 s12 left" align ="center"> <h5>Download our app and try it!</h5>
+    </div>
+    <div class="col m4 s12 center">
+      <a href="https://play.google.com/store/apps/details?id=com.cleanmaster.security">
+        <img src="images/android_appstore.jfif" class="nuoroda"></img></a>
+    </div>
+</div>
+<!-- 
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Superhero Security</h5>
+          <p class="grey-text text-lighten-4">We work that you would feel secure.</p>
+          
+
+        </div>
+        <!-- <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="#">© 2017 Superhero Security.  All rights reserved.</a>
+      </div>
+    </div>
+    </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
