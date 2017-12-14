@@ -66,6 +66,12 @@ footer.page-footer {
   color: #D81159;
 }
 
+li > a.nav-hover:hover{
+  background: #000 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 .clicker:hover { 
   background: #eee;
 }
