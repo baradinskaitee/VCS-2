@@ -1,0 +1,220 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/* MY CODE STARTS HERE */
+.nav-hover:hover { 
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #D81159;
+}
+
+li > a.nav-hover:hover{
+  background: #000 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.clicker:hover { 
+  background: #eee;
+}
+
+
+.text_rich_black {
+  color: #FFBC42;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p.header.center.light {
+  font-size: 17px;
+}
+
+.internal-link {
+  color: #8F2D56;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center top;
+
+}
+
+.hero-desc {
+  margin: 5px 0 5px 0;
+  text-align: left;
+}
+
+.team-header {
+  min-height: 250px ;
+  background-color: #009688;
+}
+
+.team-main-body {
+  background-color: rgb(228, 228, 228);
+}
+
+.card-color-closed {
+  background-color: #FFBC42;
+  color : #8F2D56;
+}
+
+.card-color-open {
+  background-color: #FFBC42 !important;
+  color: #8F2D56 !important;
+}
+
+.desc-line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+span.p-desc {
+  margin-left: 5px;
+}
+
+span.p-title {
+  color: #001F54;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+#bold-open-title {
+  font-weight: bold;
+ 
+}
+
+.card-title-revealed{
+  margin-bottom: 20px;
+
+}
+
+#logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 90%;
+  width: 90%
+
+}
+
+.card.small {
+  height: 220px;
+}
+
+.card-image.waves-effect.image-resize {
+  max-height: 80%
+}
+
+#card-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width : 992px) {
+  .section {
+    position: relative !important;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #center-aquaman {
+    margin-left: 25%;
+  }
+
+  .card.small {
+    height: 180px;
+  }
+
+  .card-image.waves-effect.image-resize {
+    max-height: 75%
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #center-aquaman {
+    margin-left: auto;
+  }
+
+  #logo {
+    height: 80%;
+    width: 80%
+  }
+
+  .card.small {
+    height: 250px;
+  }
+}
+
+ /* EGLES */
+ .active{
+  text-decoration: underline;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
